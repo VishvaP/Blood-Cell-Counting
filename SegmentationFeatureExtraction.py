@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-#read image from output of assignment 1
-img = cv2.imread('D:/Projects/ImageProcessing/DA1/sample1/edgeG.png',0)
+# read enhanced image from output of enhancement code
+img = cv2.imread('edgeG.png',0)
 
 #morphological operations
 kernel = np.ones((5,5),np.uint8)
@@ -23,7 +23,7 @@ Pipe_count, x_count, y_count = [], [], []
 
 
 #read original image, to display the circle and center detection  
-display = cv2.imread("D:/Projects/ImageProcessing/DA1/sample1/claheNorm_blurM.png")
+display = cv2.imread("claheNorm_blurM.png")
 
 image =th3
 
