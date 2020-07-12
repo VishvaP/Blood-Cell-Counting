@@ -1,5 +1,5 @@
 # Blood-Cell-Counting
-This work is also supported by an article published on GeeksForGeeks website. Find my article here:
+Find my article on this work here:
 https://www.geeksforgeeks.org/python-blood-cell-identification-using-image-processing/
 
 This is a program to get count of white and/or red blood cells from input blood smear image. 
