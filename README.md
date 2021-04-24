@@ -1,12 +1,14 @@
 # Blood-Cell-Counting
+
 Find my article on this work here:
 https://www.geeksforgeeks.org/python-blood-cell-identification-using-image-processing/
 
-This is a program to get count of white and/or red blood cells from input blood smear image. 
+## Objective 
+To get count of white and/or red blood cells from input blood smear image. 
 
 ## Image Processing Techniques Pipeline
 
-### Image Enhancement and Important Feature Highlight
+### Step 1: Image Enhancement and Important Feature Highlight
 
 * Input: Microscopic image 
 * Enhancement Process:
@@ -17,7 +19,7 @@ This is a program to get count of white and/or red blood cells from input blood 
   * Canny Edge Detection
 * Output: Enhanced Images
 
-### Image Segmentation and Feature Extraction
+### Step 2: Image Segmentation and Feature Extraction
 
 * Input: Edge Detection on Smoothened Image  
 * Segmentation and Feature Extraction Process:
@@ -26,6 +28,22 @@ This is a program to get count of white and/or red blood cells from input blood 
   * Modified Haugh Transformation  
   * Blood Cell Detection
 * Output: Blood Cell Count
+
+## Clone this repo
+```
+git clone https://github.com/VishvaP/Blood-Cell-Counting.git
+```
+## Requirements
+- Python IDE 
+- Libraries: OpenCV, NumPy, matplotlib (Install using `pip install`, if not already)
+  
+## Run 
+To run Python files, use your favourite Python IDE.
+- For Image Enhancement and Important Feature Highlight:
+	- Run `imageEnhancement.py` file
+- For Image Segmentation and Feature Extraction:
+	- Run `SegmentationFeatureExtraction.py` file 
+
 
 ## Acknowledgments
 
